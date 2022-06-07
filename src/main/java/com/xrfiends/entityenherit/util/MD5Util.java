@@ -1,4 +1,4 @@
-package com.atensys.shared.util;
+package com.xrfiends.entityenherit.util;
 
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;

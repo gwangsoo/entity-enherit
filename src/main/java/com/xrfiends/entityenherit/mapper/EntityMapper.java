@@ -1,4 +1,4 @@
-package com.atensys.shared.mapper;
+package com.xrfiends.entityenherit.mapper;
 
 import org.mapstruct.BeanMapping;
 import org.mapstruct.MappingTarget;

@@ -1,4 +1,4 @@
-package com.atensys.shared.util;
+package com.xrfiends.entityenherit.util;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

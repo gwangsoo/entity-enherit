@@ -1,4 +1,4 @@
-package com.atensys.shared.jpa;
+package com.xrfiends.entityenherit.jpa;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;

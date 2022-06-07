@@ -1,4 +1,4 @@
-package com.atensys.shared.util;
+package com.xrfiends.entityenherit.util;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

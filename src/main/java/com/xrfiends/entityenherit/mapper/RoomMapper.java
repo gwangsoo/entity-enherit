@@ -13,10 +13,10 @@ import java.util.UUID;
 public abstract class RoomMapper implements EntityMapper<RoomDTO, Room> {
     @BeforeMapping
     protected void generateId(RoomDTO d) {
-        if(!StringUtils.hasLength(d.getId())) {
+        if(d != null && !StringUtils.hasLength(d.getId())) {
             d.setId(UUID.randomUUID().toString());
         }
-        if(d.getAttendees() != null) {
+        if(d != null && d.getAttendees() != null) {
             d.getAttendees().forEach(attendeeDTO -> {
                 attendeeDTO.setRoomId(d.getId());
             });

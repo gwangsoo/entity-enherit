@@ -15,7 +15,7 @@ import java.util.UUID;
 public abstract class AttendeeMapper implements EntityMapper<AttendeeDTO, Attendee> {
     @BeforeMapping
     protected void generateId(AttendeeDTO d) {
-        if(!StringUtils.hasLength(d.getId())) {
+        if(d != null && !StringUtils.hasLength(d.getId())) {
             d.setId(UUID.randomUUID().toString());
         }
     }
